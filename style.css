@@ -137,3 +137,18 @@ form label, form fieldset {
     background-color: darkorange;
     transform: scale(1.2) rotate(3deg); /* Aumenta o elemento como um todo (fonte, padding, tamanho, etc)*/
 }
+
+table {
+    margin: 40px 0 20px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
