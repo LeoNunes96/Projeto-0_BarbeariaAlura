@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Contato - Barbearia Alura</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
@@ -37,14 +38,14 @@
                 <label for="mensagem">Mensagem</label>
                 <textarea id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
 
-                <fieldset> <!--Quando aninhar o label e o input o atributo "for" que corresponde ao "id" torna-se desnecessário-->
+                <fieldset class="tipo-contato"> <!--Quando aninhar o label e o input o atributo "for" que corresponde ao "id" torna-se desnecessário-->
                     <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
                     <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                 </fieldset>
 
-                <fieldset> <!-- Tag de div referente a um ou mais campos com assunto específico-->
+                <fieldset class="tipo-contato"> <!-- Tag de div referente a um ou mais campos com assunto específico-->
                     <legend>Qual horário prefere ser atendido?</legend> <!-- <p> do fieldset-->
                     <select>
                         <option>Manhã</option>
